@@ -1,0 +1,30 @@
+Test Case Id,Test Case Title,Description,Pre-Conditon,Test Steps,Test Actions,Expected Result,Test Data,Requirement Id,Environment
+TC01,TS01_Verify Login Functionality with Valid Credentials,"User 
+should able to login into the facebook appliaction with Valid Credentials.
+","1. User should have proper access with all security rights.
+2. User Should have Valid Username and Valid Password.",,,,"username : Admin
+Password: 1234
+",REQ01,Test
+,,,,1,Open the Chrome Browser,The Chrome Browser should be open.,,,
+,,,,2,Naviagte to the facebook login page.,The facebook login page should load properly.,,,
+,,,,3,Enter the Valid username in username textfield,Username should entered correctly.,,,
+,,,,4,Enter the Valid password in password textfield.,Password should be entered correctly.,,,
+,,,,5,Click on login button,facebook home page should be displayed,,,
+,,,,6,"Verify facebook home page Elements.
+Feed.
+Notifiaction
+Logout
+Username",facebook home page element valiadted,,,
+,,,,,,,,,
+TC02,TS02_Verify Login Functionality with InValid Credentials,"User 
+should not able to login into the facebook appliaction with InValid Credentials.
+","1. User should have proper access with all security rights.
+",,,,"username : Admin1
+Password: 1234
+5",REQ01,Test
+,,,,1,Open the Chrome Browser,The Chrome Browser should be open.,,,
+,,,,2,Naviagte to the facebook login page.,The facebook login page should load properly.,,,
+,,,,3,Enter the InValid username in username textfield,Username should entered correctly.,,,
+,,,,4,Enter the InValid password in password textfield.,Password should be entered correctly.,,,
+,,,,5,Click on login button,facebook home page should not be displayed,,,
+,,,,,,,,,
